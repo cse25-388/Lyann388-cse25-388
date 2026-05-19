@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Programs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   </head>
+    
+     <body>
+         <div class="header">
+          <img src="C:\Users\lyann\Downloads\logo.jpg" alt="Website Logo" width="100" height="100">
+       </div>
+
+           
+
+              <div class="nav">
+  <ol>
+  <li><a href="programs.html">Programs</a></li>
+  <li><a href="about us.html">About us</a></li>
+  <li><a href="contact us.html">Contact us</a></li>
+  <li><a href="admissions.html">Admissions</a></li>
+  <li><a href="announcements.html">Announcements</a></li>
+  <li><a href="index.html">Home Page</a></li>
+</ol>
+              </div>
+                     
+            <div class="container my-5">
+  <!-- Section Title -->
+  <h2 class="fw-bold mb-4">All Programmes</h2>
+
+  <style>
+    /* 🔹 Red‑Orange Button Styling */
+    .btn-redorange {
+      background-color: orangered;
+      color: white;
+      border: none;
+    }
+    .btn-redorange:hover {
+      background-color: #ff4500;
+    }
+    .btn-redorange.active {
+      background-color: #e63900;
+    }
+
+    /* 🔹 Card Text Colors */
+    .orange-text { color: orange; }
+    .orangered-text { color: orangered; }
+
+    /* 🔹 Grid Layout (2x2) */
+    .programme-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  </style>
+</head>
+<body class="container my-4">
+
+  <!-- Dropdown -->
+  <div class="mb-3">
+    <label for="programmeSelect" class="form-label fw-semibold">Filter by Programme:</label>
+    <select class="form-select" id="programmeSelect">
+      <option selected>Choose a programme...</option>
+      <option>Diploma in Culinary Arts</option>
+      <option>Diploma in Hospitality & Culinary Management</option>
+      <option>Diploma in Baking & Pastry Arts</option>
+      <option>Certificate in Food Preparation & Cooking</option>
+      <option>Certificate in Food & Beverage Preparation</option>
+      <option>Certificate in Nutrition</option>
+      <option>Wine Tasting & Pairing</option>
+      <option>Food Photography & Styling</option>
+      <option>Cake Decorating & Sugar Craft</option>
+      <option>Restaurant Entrepreneurship</option>
+      <option>Catering & Event Management</option>
+    </select>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="d-flex justify-content-center mb-3">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-redorange active">All</button>
+      <button type="button" class="btn btn-redorange">Diploma</button>
+      <button type="button" class="btn btn-redorange">Certificate</button>
+      <button type="button" class="btn btn-redorange">Short Courses</button>
+      <button type="button" class="btn btn-redorange">Professional Programs</button>
+    </div>
+  </div>
+
+  <!-- Programmes Grid -->
+  <div class="programme-grid mt-4">
+
+    <!-- Diploma -->
+    <div class="card programme diploma">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Diploma in Culinary Arts</h5>
+        <p class="orange-text"><strong>Level:</strong> Diploma</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card programme diploma">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Hospitality & Culinary Management</h5>
+        <p class="orange-text"><strong>Level:</strong> Diploma</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card programme diploma">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Baking & Pastry Arts</h5>
+        <p class="orange-text"><strong>Level:</strong> Diploma</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <!-- Certificates -->
+    <div class="card programme certificate">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Food Preparation & Cooking</h5>
+        <p class="orange-text"><strong>Level:</strong> Certificate</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card programme certificate">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Food & Beverage Preparation</h5>
+        <p class="orange-text"><strong>Level:</strong> Certificate</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card programme certificate">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Nutrition</h5>
+        <p class="orange-text"><strong>Level:</strong> Certificate</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <!-- Short Courses -->
+    <div class="card Short-courses">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Wine Tasting & Pairing</h5>
+        <p class="orange-text"><strong>Level:</strong> Short Course</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card Short-courses">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Food Photography & Styling</h5>
+        <p class="orange-text"><strong>Level:</strong> Short Course</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card Short-courses">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Cake Decorating & Sugar Craft</h5>
+        <p class="orange-text"><strong>Level:</strong> Short Course</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <!-- Professional -->
+    <div class="card professional-programme">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Restaurant Entrepreneurship</h5>
+        <p class="orange-text"><strong>Level:</strong> Professional Programme</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card professional-programme">
+      <div class="card-body">
+        <h5 class="card-title orangered-text">Catering & Event Management</h5>
+        <p class="orange-text"><strong>Level:</strong> Professional Programme</p>
+        <a href="admissions.html" class="btn btn-redorange">Apply Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+
+      
+    <footer>
+  <div class="container my-5">
+  <!-- Contact Information -->
+  <div class="row" style="background-color: orange; padding: 30px; color: white;">
+    <!-- Gaborone Column -->
+    <div class="col-md-6">
+      <h3>GABORONE</h3>
+      <p>
+        Plot 15920, Gaborone Block 7<br>
+        PO Box AE 1450 Molapo Crossing<br>
+        Gaborone, Botswana
+      </p>
+    </div>
+
+    <!-- Admissions Column -->
+    <div class="col-md-6">
+      <h3>ADMISSIONS</h3>
+      <p>
+        Email: DikapeiCulinary@gmail.com<br>
+        Office 001 Campus<br>
+        Tel: <a href="tel:+2672271503" style="color: white;">+267 227 1503</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- School Title at Bottom -->
+  <div class="row mt-2">
+    <div class="col text-center">
+      <h2 style="color: white; background-color: orangered; padding: 12px;">
+        Dikapei Culinary School
+      </h2>
+    </div>
+  </div>
+</div>
+
+
+ </footer>
+</html>

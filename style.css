@@ -1,0 +1,130 @@
+.header {
+    height: 100px;
+    background-color: orangered;
+    color: rgb(42, 33, 33);
+
+    display: flex;             
+    align-items: center;        
+    justify-content: space-between; 
+    padding: 0 20px;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    margin: 10px 20px;
+}
+.nav {
+    background-color: orange;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.nav ol {
+    list-style-type: none;   /* keeps numbers */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav ol li {
+    float: left;
+    padding-left: 40px;
+    font-weight: bold;
+    text-transform:capitalize;
+    font-size: 20px;
+    
+}
+
+.nav ol li a {
+    color: orangered;              /* makes text yellow */
+    text-decoration: none;
+}
+
+.nav ol li a:hover {
+    color: yellow;               /* hover effect */
+}
+
+
+.body{
+    background-color: burlywood;
+    height: 100px;
+}
+
+.orangered-text {
+  color: orangered;
+}
+
+.orange-text {
+  color: orange;
+}
+
+.nav {
+  margin-bottom: 600px;   /* adds space below navigation */
+}
+
+
+.contact-us h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact-us strong {
+  color: orange;         /* makes bold labels orange */
+}
+   
+.programme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* space between cards */
+}
+/* 🔹 Red‑Orange Button Styling */
+    .btn-redorange {
+      background-color: orangered;
+      color: white;
+      border: none;
+    }
+    .btn-redorange:hover {
+      background-color: #ff4500;
+    }
+    .btn-redorange.active {
+      background-color: #e63900;
+    }
+
+    /* 🔹 Card Text Colors */
+    .orange-text { color: orange; }
+    .orangered-text { color: orangered; }
+
+    /* 🔹 Grid Layout (2x2) */
+    .programme-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    footer {
+  background-color: orangered; /* keep your color */
+  color: white;                /* readable text */
+  text-align: center;          /* center text horizontally */
+  padding: 30px 50px;          /* space inside footer */
+}
+
+footer .footer-content {
+  max-width: 900px;            /* keeps content from stretching too wide */
+  margin: 0 auto;              /* centers block */
+  display: flex;               /* side-by-side layout */
+  justify-content: center;     /* centers both sections */
+  gap: 60px;                   /* space between Gaborone & Admissions */
+}
+
+.card {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect: background turns red */
+.card:hover {
+  background-color: red;
+  color: white; /* ensures text stays readable */
+  transform: translateY(-6px); /* optional lift effect */
+  cursor: pointer;
+}
