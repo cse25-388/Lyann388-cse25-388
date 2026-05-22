@@ -251,8 +251,8 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: orangered;
+  border: 1px solid yellow;
   border-left: 5px solid ; /* orange accent */
   padding: 30px;
   margin-bottom: 20px;
@@ -260,12 +260,65 @@ h1 {
   box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
 
-.card h2 {
+/* Default card style */
+.applications-card {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Text inside cards */
+.applications-card h5,
+.applications-card p {
+  color: black;       /* Always black */
+  font-weight: bold;  /* Bold for visibility */
+}
+
+/* Hover effect */
+.applications-card:hover {
+  background-color: orangered;
+  color: white;
+}
+
+/* Ensure text adapts on hover */
+.applications-card:hover h5,
+.applications-card:hover p {
+  color: white;       /* Switch to white when hovered */
+}
+
+
+/* Default card style */
+.program-card {
+  background-color: orangered;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect (optional) */
+.program-card:hover {
+  background-color: #ff4500; /* orangered */
+  color: orangered;
+}
+
+/* Active (while pressed) */
+.program-card:active {
+  background-color: #e63900; /* darker orangered */
+  color: orangered;
+}
+
+/* Text inside cards */
+.program-card h5,
+.program-card p {
+  font-weight: bold;
+  color: black;
+}
+
+/* Text adapts when hovered/active */
+.applications-card:hover h5,
+.applications-card:hover p,
+.applications-card:active h5,
+.applications-card:active p {
   color: orange;
-  margin-top: 0;
 }
-
-.card p {
-  margin: 10px 0;
-}
-
